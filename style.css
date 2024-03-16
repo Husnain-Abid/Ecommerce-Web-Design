@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+
+.product-items {
+    max-width: 300px;
+}
+
+.rating-star {
+    color: yellow;
+}
+
+.product-small img {
+    max-width: 10rem;
+    padding: 1rem;
+}
+
+.cross i {
+    color: red;
+    font-size: 20px;
+}
+
+.cross i:hover {
+    font-size: 22px;
+    color: red;
+
+}
+
+.order-icon i {
+    font-size: 12rem;
+
+}
+
+
+.color-lebal {
+    border-radius: 50% !important;
+    margin: 5px;
+}
+
+.color-lebal i{
+opacity: 0;
+}
+
+.btn-check:checked+.color-lebal i{
+opacity: 1;
+}
+
+.product-items:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
